@@ -1,0 +1,25 @@
+
+.page {  
+  min-height: 100vh; 
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column 
+} 
+
+.content {	
+  flex: 1 0 auto; 
+  /* padding: 20px */
+}
+/* 
+.sticky-footer { 
+  flex-shrink: 0; 
+  padding: 20px 0;
+  background: #d5d7d9;
+  color: white;
+  width: 97%;
+  margin: 0 auto;
+  border: dotted beige;
+  font-weight: bold;
+  text-align: center
+} */
+

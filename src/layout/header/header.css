@@ -1,0 +1,30 @@
+a {
+    color: var(--#{$prefix}-link-color);
+    text-decoration: none !important;
+  
+    &:hover {
+      color: var(--#{$prefix}-link-hover-color);
+      text-decoration: $link-hover-decoration;
+    }
+  }
+
+  .fa-shopping-cart{
+    position: relative;
+    display: inline-block;
+  }
+
+.rhf-cart-count { 
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-weight: bold;
+    /* background-color: blue; */
+    color: gray;
+    /* border-radius: 10px; */
+    font-style: normal;
+    padding: 5px;
+    min-width: 16px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Lato!important;
+}

@@ -1,0 +1,13 @@
+.cart-item-container {
+    /* background-image: url('../../../public/book.jpg');  */
+    background-size: cover; 
+    background-position: center; 
+    position: relative;
+    overflow-y: auto; /* Thêm thanh cuộn khi nội dung vượt quá chiều cao */
+  }
+  
+  .offcanvas-body {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+  }
+  
